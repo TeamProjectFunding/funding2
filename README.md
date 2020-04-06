@@ -1,4 +1,4 @@
-## Team_PJ_Funding
+## TPF
 
 ### 팀 회의
 [200401 1차 회의](https://github.com/kha0213/Team_PJ_Funding/wiki/200402_1%EC%B0%A8%ED%9A%8C%EC%9D%98)<br>
