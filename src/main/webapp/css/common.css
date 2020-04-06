@@ -12,9 +12,24 @@ header #headerWrap #menuWrap ul{position:relative; float:right; height:40px; cle
 header #headerWrap #menuWrap ul li{float:left; line-height: 40px;}
 header #headerWrap #menuWrap ul li a{padding:5px; color:#fff;}
 
-section{position:relative; width:100%; height:100%;}
+section{position:relative; width:80%; height:50%;}
+section h2{width: 100%; line-height: 150px; font-family: 'Oswald', sans-serif; text-align: center; color: #3a434c; font-size: 30px;}
 
-#mainVisual{background:url(http://localhost:8181/crowdfund/images/main.jpg); background-size: cover; background-repeat: no-repeat;}
+#mainVisual{background:url(http://localhost:8181/crowdfund/images/main.jpg); width:100%; height:100%; background-size: cover; background-repeat: no-repeat;}
 #mainVisual h1{top:35%; position: relative; width:100%; font-size: 7vw; text-align: center; color:#fff; font-family: 'Oswald', sans-serif;}
 
+#productWrap #productList { width: 100%;}
+section h2{width: 100%; line-height: 150px; font-family: 'Oswald', sans-serif; text-align: center; color: #3a434c; font-size: 30px;}
+#productWrap #productList .product{width: 25%; float: left;}
+#productWrap #productList .product li { padding: 5px 15px 5px; text-align: center; position: relative; font-size: 12px; font-weight: bold;}
+#productWrap #productList .product li.thum {position: relative; overflow: hidden;}
+#productWrap #productList .product li.thum img{width: 100%;}
+#productWrap #productList .product li:nth-child(2) span{padding: 5px 10px 5px; margin-right: 10px; font-size: 11px; background: #3c81ff; font-weight: bold; color: #fff; border-radius: 15px; position: absolute; top: 0; left: 15px; font-family: 'Oswald', sans-serif;}
+#productWrap #productList .product li.productTitle {font-weight: bold; text-align: center; font-size:14px;}
+#productWrap #productList .product li:last-child span{font-size: 12px; font-weight: bold; color: #397ee4;} 
+
+.fundingOpenBanner{position:relative; width:100%; background:url(https://static.wadiz.kr/main/media/img-fundingopen-pc.51ce91c1.jpg); background-size: cover; text-align: center; padding:10%; margin:5% 0 5%;  }
+.fundingOpenBanner h1{font-family: 'Oswald', sans-serif; font-size: 3vw; }
+.fundingOpenBanner h1, .fundingOpenBanner p { width:100%; color:#fff;}
+.fundingOpenBanner button{padding: 5px 40px 5px; margin-top: 20px; background: none; border: 3px solid #fff; color: #fff; font-weight: bold; font-size: 20px; border-radius: 15px;}
 footer{width:100%; height:300px;  background:#000;}
