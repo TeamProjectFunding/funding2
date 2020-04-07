@@ -11,4 +11,9 @@ public class HomeController {
 		return "main/main";
 	}
 	
+	@RequestMapping(value="login")
+	public String userLogin() {
+		return "users/login";
+	}
+	
 }

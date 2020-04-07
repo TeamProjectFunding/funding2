@@ -50,17 +50,105 @@
 			</ul>
 		</div>
 	</section>
+	<section id="rewardWrap">
+		<h2>REWARD</h2>
+		<div id="rewardList">
+		
+			<!-- list -->
+			
+			<ul class="reward">
+				<li class="thum">
+					<img src="https://cdn.wadiz.kr/wwwwadiz/green001/2020/0318/20200318203419771_60560.png/wadiz/format/jpg/quality/80/optimize" alt="rewardThum">
+				</li>
+				<li><span >reward</span>company name</li>
+				<li class="rewardTitle">Reward Title</li>
+				<li><span>10 days later</span></li>
+			</ul>
+			
+			<ul class="reward">
+				<li class="thum">
+					<img src="https://cdn.wadiz.kr/wwwwadiz/green001/2020/0318/20200318203419771_60560.png/wadiz/format/jpg/quality/80/optimize" alt="rewardThum">
+				</li>
+				<li><span >reward</span>company name</li>
+				<li class="rewardTitle">Reward Title</li>
+				<li><span>10 days later</span></li>
+			</ul>
+			
+			
+			<ul class="reward">
+				<li class="thum">
+					<img src="https://cdn.wadiz.kr/wwwwadiz/green001/2020/0318/20200318203419771_60560.png/wadiz/format/jpg/quality/80/optimize" alt="rewardThum">
+				</li>
+				<li><span >reward</span>company name</li>
+				<li class="rewardTitle">Reward Title</li>
+				<li><span>10 days later</span></li>
+			</ul>
+			
+			
+			<ul class="reward">
+				<li class="thum">
+					<img src="https://cdn.wadiz.kr/wwwwadiz/green001/2020/0318/20200318203419771_60560.png/wadiz/format/jpg/quality/80/optimize" alt="rewardThum">
+				</li>
+				<li><span >reward</span>company name</li>
+				<li class="rewardTitle">Reward Title</li>
+				<li><span>10 days later</span></li>
+			</ul>
+			
+		</div>
+	</section>
 	<div class="fundingOpenBanner">
 		<h1>CROWD FUNDING OPEN</h1>
 		<p>Introduce your story and meet investor and supporters</p>
 		<button>Do it</button>
 	</div>
-	<section>
+	<section id="newsWrap">
 		<h2>NEWS & PRESS</h2>
+		<div id="newList">
+		
+			<ul class="news">
+				<li class="thum">
+					<img src="https://cdn.wadiz.kr/wwwwadiz/green001/2020/0323/20200323113035051_60304.jpg" alt="newThum">
+				</li>
+				<li class="companyName">companyName</li>
+				<li class="newsTitle">[글로벌 5억] 6만원대로 시작하는 음파전동칫솔 | 오클린 X pro |</li>
+			</ul>
+			
+			<ul class="news">
+				<li class="thum">
+					<img src="https://cdn.wadiz.kr/wwwwadiz/green001/2020/0323/20200323113035051_60304.jpg" alt="newThum">
+				</li>
+				<li class="companyName">companyName</li>
+				<li class="newsTitle">[글로벌 5억] 6만원대로 시작하는 음파전동칫솔 | 오클린 X pro |</li>
+			</ul>
+			
+			<ul class="news">
+				<li class="thum">
+					<img src="https://cdn.wadiz.kr/wwwwadiz/green001/2020/0323/20200323113035051_60304.jpg" alt="newThum">
+				</li>
+				<li class="companyName">companyName</li>
+				<li class="newsTitle">[글로벌 5억] 6만원대로 시작하는 음파전동칫솔 | 오클린 X pro |</li>
+			</ul>
+		</div>
 	</section>
 	
-	<section>
-	
+	<section id="bottomWrap">
+		<div id="noticeWrap">
+			<h2>NOTICE</h2>
+			<ul>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+				<li><a href=""><span>[headline]</span> notice title</a></li>
+			</ul>
+		</div>
+		<div id="bannaWrap">
+		</div>
 	</section>
 	
 <jsp:include page="footer.jsp" />
