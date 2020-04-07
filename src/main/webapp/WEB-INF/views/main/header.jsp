@@ -23,7 +23,7 @@ family=Oswald:wght@200;300;400;500;600;700&display=swap" rel="stylesheet">
 		</div>
 		<div id="menuWrap">
 			<ul class="util">
-				<li><a href="#">LOGIN</a></li>
+				<li><a href="${conPath}/login.do">LOGIN</a></li>
 				<li><a href="#">JOIN</a></li>
 				<!--li><a href="#">LOGOUT</a></li>
 				<li><a href="#">MYPAGE</a></li-->
