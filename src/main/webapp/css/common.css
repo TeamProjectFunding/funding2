@@ -2,6 +2,29 @@
 
 *{margin:0 auto; padding:0; text-decoration: none; list-style: none; box-sizing:border-box; font-family: 'Nanum Gothic', sans-serif;}
 html,body{width:100%; height:100%;}
+
+/* width */
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 50%;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #ccc; 
+  border-radius: 2.5px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #fff; 
+}
+
+/* 공통 */
 header{position:fixed; width:100%; border-bottom:1px solid #ffffff6b; z-index: 9999; background:url(http://localhost:8181/funding/images/main.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
 header h1{line-height: 30px;  text-align:center; color:#fff;}
 header h1, header a{font-family: 'Oswald', sans-serif; }
@@ -12,26 +35,56 @@ header #headerWrap #menuWrap ul{position:relative; float:right; height:40px; cle
 header #headerWrap #menuWrap ul li{float:left; line-height: 40px;}
 header #headerWrap #menuWrap ul li a{padding:5px; color:#fff;}
 
-section{position:relative; width:80%; height:50%;}
+section{position:relative; width:80%; height:60%;}
 section h2{width: 100%; line-height: 150px; font-family: 'Oswald', sans-serif; text-align: center; color: #3a434c; font-size: 30px;}
 
+/* main/main.jsp style */
 #mainVisual{ width:100%; height:100%; background:url(http://localhost:8181/funding/images/main.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
 #mainVisual h1{top:35%; position: relative; width:100%; font-size: 7vw; text-align: center; color:#fff; font-family: 'Oswald', sans-serif;}
 
 #productWrap #productList { width: 100%;}
-section h2{width: 100%; line-height: 150px; font-family: 'Oswald', sans-serif; text-align: center; color: #3a434c; font-size: 30px;}
 #productWrap #productList .product{width: 25%; float: left;}
 #productWrap #productList .product li { padding: 5px 15px 5px; text-align: center; position: relative; font-size: 12px; font-weight: bold;}
 #productWrap #productList .product li.thum {position: relative; overflow: hidden;}
 #productWrap #productList .product li.thum img{width: 100%;}
 #productWrap #productList .product li:nth-child(2) span{padding: 5px 10px 5px; margin-right: 10px; font-size: 11px; background: #3c81ff; font-weight: bold; color: #fff; border-radius: 15px; position: absolute; top: 0; left: 15px; font-family: 'Oswald', sans-serif;}
 #productWrap #productList .product li.productTitle {font-weight: bold; text-align: center; font-size:14px;}
-#productWrap #productList .product li:last-child span{font-size: 12px; font-weight: bold; color: #397ee4;} 
+#productWrap #productList .product li:last-child span{font-size: 12px; font-weight: bold; color: #3c81ff;} 
+
+#rewardWrap #rewardList { width: 100%;}
+#rewardWrap #rewardList .reward{width: 25%; float: left;}
+#rewardWrap #rewardList .reward li { padding: 5px 15px 5px; text-align: center; position: relative; font-size: 12px; font-weight: bold;}
+#rewardWrap #rewardList .reward li.thum {position: relative; overflow: hidden;}
+#rewardWrap #rewardList .reward li.thum img{width: 100%;}
+#rewardWrap #rewardList .reward li:nth-child(2) span{padding: 5px 10px 5px; margin-right: 10px; font-size: 11px; background: #44cebb; font-weight: bold; color: #fff; border-radius: 15px; position: absolute; top: 0; left: 15px; font-family: 'Oswald', sans-serif;}
+#rewardWrap #rewardList .reward li.rewardTitle {font-weight: bold; text-align: center; font-size:14px;}
+#rewardWrap #rewardList .reward li:last-child span{font-size: 12px; font-weight: bold; color: #44cebb;}
 
 .fundingOpenBanner{position:relative; width:100%; background:url(https://static.wadiz.kr/main/media/img-fundingopen-pc.51ce91c1.jpg); background-size: cover; text-align: center; padding:10%; margin:5% 0 5%;  }
 .fundingOpenBanner h1{font-family: 'Oswald', sans-serif; font-size: 3vw; }
 .fundingOpenBanner h1, .fundingOpenBanner p { width:100%; color:#fff;}
 .fundingOpenBanner button{padding: 5px 40px 5px; margin-top: 20px; background: none; border: 3px solid #fff; color: #fff; font-weight: bold; font-size: 20px; border-radius: 15px;}
 
-footer{width:100%; height:300px;  background:url(http://localhost:8181/funding/images/main.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
-footer #footerWrap{position: relative; width:80%;  padding:10%; color:#fff;}
+#newsWrap #newList{ width: 100%;}
+#newsWrap #newList .news{width: 33.33%; float: left;}
+#newsWrap #newList .news li { padding: 5px 15px 5px; text-align: center; position: relative; font-size: 12px; font-weight: bold;}
+#newsWrap #newList .news li.thum {position: relative; overflow: hidden;}
+#newsWrap #newList .news li.thum img{width: 100%;}
+#newsWrap #newList .news li.newsTitle {font-weight: bold; text-align: center; font-size:14px;}
+
+#bottomWrap >div{float:left;}
+#bottomWrap #noticeWrap{position: relative; top: 5%; width: 30%; box-shadow: -5px 5px 15px #b9b9b9; padding: 0 1% 1%;}
+#bottomWrap #noticeWrap h2{line-height: 100px;}
+#bottomWrap #noticeWrap ul{width:100%; height:300px; padding:0 10% 10%; overflow-y: scroll;}
+
+#bottomWrap #noticeWrap ul li{width: 100%; padding: 3% 0 3%; font-size: 14px; border-bottom: 1px solid #f1f1f1; font-weight: bold;}
+#bottomWrap #noticeWrap ul li a{color: #3a434c;}
+#bottomWrap #noticeWrap ul li a span{font-size: 12px; float: left; margin-right:10px; line-height: 20px;}
+#bottomWrap #bannerWrap{width:70%;}
+
+/* users style */
+#userWrap{padding:10% 0 0; width:50%; height:100%;}
+
+footer{margin-top:50px; width:100%; height:300px;  background:url(http://localhost:8181/funding/images/main.jpg); background-size: cover; background-repeat: no-repeat; background-attachment: fixed;}
+footer #footerBackgroundColor{position: relative; width:100%; height:100%; color:#fff; background:#041423d1; }
+footer #footerBackgroundColor #footerWrap{width:80%; padding: 5%; font-family: 'Nanum Gothic', sans-serif; font-size: 12px; line-height: 20px;}
